@@ -21,6 +21,8 @@ This bash script automates the deployment of a React app using Nginx as a web se
    ```
 5. Follow the prompts to enter the desired site name and URL.
 
+6. Follow the prompts to configure Certbot.
+
 ## Prerequisites
 - This script assumes a clean Ubuntu environment.
 - Ensure you are running the script with appropriate permissions (e.g., sudo).
