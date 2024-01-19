@@ -72,6 +72,5 @@ npm install -g serve
 # Build React app
 npm run build
 
-# Run serve in background and get the PID to kill later
-nohup serve -s build &
-ps aux | grep serve
+# Run serve in the background and echo the PID
+nohup serve -s build & echo "Serve process ID: $!"
