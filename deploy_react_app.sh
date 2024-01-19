@@ -59,7 +59,7 @@ echo "server {
 sudo ln -s /etc/nginx/sites-available/$site_name /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 
-# Install Certbot, allow ports, configure Certbot, and set up cronjob
+# Install Certbot, allow ports, configure Certbot, and set up monthly cronjob
 sudo apt install -y python3-certbot-nginx
 sudo ufw allow 80
 sudo ufw allow 443
